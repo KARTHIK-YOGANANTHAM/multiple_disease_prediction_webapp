@@ -18,6 +18,7 @@ heart_model = pickle.load( open('heart_model.sav', 'rb'))
 
 with st.sidebar:
 
+	st.image("logo.png", width=120)
 	selected = option_menu('Multiple Disease Prediction System',
 
 		['Diabetes Prediction', 'Breast Cancer Prediction', 'Parkinson Disease Prediction', 'Heart Disease Prediction', 'About the developer'],
@@ -465,7 +466,7 @@ if (selected=="About the developer"):
 
 		""")
 
-	st.subheader("For more details:")
+	st.subheader("For more details:👇🏻")
 	st.markdown("**[visit my Portfolio👇🏻](https://karthikyoganantham.framer.website/)**")
 
 
