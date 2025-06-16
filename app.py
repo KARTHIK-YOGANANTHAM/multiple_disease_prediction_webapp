@@ -469,6 +469,9 @@ if (selected=="About the developer"):
 	st.subheader("For more details:👇🏻")
 	st.markdown("**[visit my Portfolio👇🏻](https://karthikyoganantham.framer.website/)**")
 
+	st.image("logo.png", width=200)
+	st.caption("©️All rights reserved by Karthik Yoganantham")
+
 
 
 
