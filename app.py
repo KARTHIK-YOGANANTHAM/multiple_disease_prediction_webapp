@@ -10,10 +10,10 @@ import pickle
 
 
 ## load the saved model
-diabetic_model = pickle.load(open('D:/disease_prediction/trained_models/diabetes_model.sav', 'rb'))
-cancer_model = pickle.load( open('D:/disease_prediction/trained_models/cancer_model.sav', 'rb'))
-parkinson_model = pickle.load( open('D:/disease_prediction/trained_models/parkinson_model.sav', 'rb'))
-heart_model = pickle.load( open('D:/disease_prediction/trained_models/heart_model.sav', 'rb'))
+diabetic_model = pickle.load(open('diabetes_model.sav', 'rb'))
+cancer_model = pickle.load( open('cancer_model.sav', 'rb'))
+parkinson_model = pickle.load( open('parkinson_model.sav', 'rb'))
+heart_model = pickle.load( open('heart_model.sav', 'rb'))
 
 
 with st.sidebar:
